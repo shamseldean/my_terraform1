@@ -23,7 +23,7 @@ resource "aws_route_table" "private-rout-table" {
 
 
   tags = {
-    Name = "public_route_table"
+    Name = "private_route_table"
   }
 }
 
